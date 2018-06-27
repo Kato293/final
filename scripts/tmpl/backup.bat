@@ -33,7 +33,8 @@ goto :EOF
     set mm=%time:~3,2%
     set ss=%time:~6,2%
 
-    set %1=_%yy%_%mh%_%dd%_%hh%_%mm%_%ss%
+    ::set %1=_%yy%_%mh%_%dd%_%hh%_%mm%_%ss%
+	set %1=_2018_06_27_22_24_45
     goto :EOF
 
 :makeBuild
