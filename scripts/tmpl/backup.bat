@@ -2,7 +2,7 @@
     set fName=@artifact@-@version@
     set fExt=.zip
     ::set rootDir=d:\programming\qa\seleniumtest\target
-    set rootDir=%HOMEDRIVE%%HOMEPATH%\.jenkins\workspace\automationpractice-03\target
+    set rootDir=%HOMEDRIVE%%HOMEPATH%\.jenkins\workspace\automation\target
     set src=%rootDir%\%fName%%fExt%
 setlocal
     call :copyBackup
